@@ -1,0 +1,20 @@
+--- jpilot-Mail-0.0.6/configure~	Sun May 20 17:33:13 2001
++++ jpilot-Mail-0.0.6/configure	Mon Jun  9 23:32:37 2003
+@@ -1947,7 +1947,7 @@
+ pilotinclude=no
+ for pilot_incl in $pilot_prefix/include /usr/include /usr/local/include \
+     /usr/extra/pilot/include /usr/include/libpisock; do
+-   if test -r "$pilot_incl/pi-config.h" ; then
++   if test -r "$pilot_incl/pi-version.h" ; then
+       pilotinclude=yes
+       PILOT_FLAGS="$PILOT_FLAGS -I$pilot_incl"
+       break
+@@ -2052,7 +2052,7 @@
+    cat > conftest.$ac_ext <<EOF
+ #line 2054 "configure"
+ #include "confdefs.h"
+-#include "pi-config.h" 
++#include "pi-version.h" 
+ #include "pi-socket.h"
+ int main() {
+ pi_close (0); 
