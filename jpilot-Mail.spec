@@ -56,5 +56,5 @@ rm -rf $RPM_BUILD_ROOT
 
 %files
 %defattr(644,root,root,755)
-%doc ChangeLog NEWS COPYING INSTALL README TODO AUTHORS
+%doc ChangeLog INSTALL README TODO
 %{_jpluginsdir}/*
