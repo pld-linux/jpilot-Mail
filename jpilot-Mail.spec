@@ -18,7 +18,7 @@ Patch0:		%{name}-header.patch
 URL:		http://www.innominate.org/~oku/jpilot-Mail/
 BuildRequires:	gtk+-devel
 BuildRequires:	pilot-link-devel
-Requires:       jpilot
+Requires:	jpilot
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %define		_jpluginsdir	/usr/lib/jpilot/plugins
