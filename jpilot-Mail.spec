@@ -2,11 +2,11 @@
 # TODO:
 # - fix auto* and send fixes to author,
 # - cleanups at %install stage
-# - pl desc + summary
 #
-# Attention! Doesn't work with jpilot compiled with gtk1,
+# Attention! Doesn't work with jpilot compiled with gtk2,
 #
 Summary:	A mail-plugin for jpilot
+Summary(pl):	Wtyczka obs³uguj±ca pocztê dla jpilota
 Name:		jpilot-Mail
 Version:	0.0.6
 Release:	0.1
@@ -23,10 +23,14 @@ BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 %define		_jpluginsdir	/usr/lib/jpilot/plugins
 
 %description
-jpilot-Mail is a plugin for jpilot (http://jpilot.linuxbox.com) which
-enables you to deliver mail that was written on your pilot and upload
-mail that you received to your pilot. Author: Oliver Kurth
-<oliver.kurth@innominate.de>
+jpilot-Mail is a plugin for jpilot which enables you to deliver 
+mail that was written on your pilot and upload mail that you 
+received to your pilot. 
+
+%description -l pl
+jpilot-Mail jest wtyczk± do jpilota która pozwala na dostarczanie
+poczty napisanej na twoim palmie oraz przes³anie poczty odebranej
+do twojego palma.
 
 %prep
 %setup -q
