@@ -24,9 +24,9 @@ BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 %define		_jpluginsdir	/usr/lib/jpilot/plugins
 
 %description
-jpilot-Mail is a plugin for jpilot which enables you to deliver 
-mail that was written on your pilot and upload mail that you 
-received to your pilot. 
+jpilot-Mail is a plugin for jpilot which enables you to deliver
+mail that was written on your pilot and upload mail that you
+received to your pilot.
 
 %description -l pl
 jpilot-Mail jest wtyczk± do jpilota która pozwala na dostarczanie
