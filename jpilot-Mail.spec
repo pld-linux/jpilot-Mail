@@ -34,7 +34,7 @@ poczty napisanej na palmie oraz przes³anie odebranej poczty do palma.
 
 %prep
 %setup -q
-%patch -p1
+%patch0 -p1
 
 %build
 # dont call any auto scripts - it's completly broken
