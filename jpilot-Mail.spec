@@ -6,7 +6,7 @@
 # Attention! Doesn't work with jpilot compiled with gtk2,
 #
 Summary:	A mail-plugin for jpilot
-Summary(pl):	Wtyczka obs³uguj±ca pocztê dla jpilota
+Summary(pl.UTF-8):   Wtyczka obsÅ‚ugujÄ…ca pocztÄ™ dla jpilota
 Name:		jpilot-Mail
 Version:	0.0.6
 Release:	0.1
@@ -28,9 +28,9 @@ jpilot-Mail is a plugin for jpilot which enables you to deliver
 mail that was written on your pilot and upload mail that you
 received to your pilot.
 
-%description -l pl
-jpilot-Mail jest wtyczk± do jpilota która pozwala na dostarczanie
-poczty napisanej na palmie oraz przes³anie odebranej poczty do palma.
+%description -l pl.UTF-8
+jpilot-Mail jest wtyczkÄ… do jpilota ktÃ³ra pozwala na dostarczanie
+poczty napisanej na palmie oraz przesÅ‚anie odebranej poczty do palma.
 
 %prep
 %setup -q
