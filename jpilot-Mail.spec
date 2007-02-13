@@ -6,7 +6,7 @@
 # Attention! Doesn't work with jpilot compiled with gtk2,
 #
 Summary:	A mail-plugin for jpilot
-Summary(pl.UTF-8):   Wtyczka obsługująca pocztę dla jpilota
+Summary(pl.UTF-8):	Wtyczka obsługująca pocztę dla jpilota
 Name:		jpilot-Mail
 Version:	0.0.6
 Release:	0.1
